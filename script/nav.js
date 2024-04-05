@@ -49,32 +49,3 @@ function gantiWarna(obyek, warna) {
     o.style.color = warna;
   });
 }
-
-const hitungUmur = (tanggalLahirr) => {
-  // Mendapatkan tanggal hari ini
-  const hariIni = new Date();
-
-  // Membuat objek tanggal lahir dari string input (format: 'YYYY-MM-DD')
-  const [tahunLahir, bulanLahir, tanggalLahir] = tanggalLahirr
-    .split("-")
-    .map(Number);
-  const ulangTahunIni = new Date(
-    hariIni.getFullYear(),
-    bulanLahir - 1,
-    tanggalLahir
-  );
-
-  // Menghitung selisih tahun antara tahun sekarang dan tahun lahir
-  let selisihTahun = hariIni.getFullYear() - tahunLahir;
-  // Memeriksa apakah tanggal lahir sudah terjadi di tahun ini
-  if (ulangTahunIni > hariIni) {
-    selisihTahun--;
-  }
-
-  return selisihTahun;
-};
-
-// Contoh penggunaan
-const tanggalLahirr = "2006-08-14";
-const umur = hitungUmur(tanggalLahirr);
-console.log(`Umur: ${umur}`);
