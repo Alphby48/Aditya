@@ -43,6 +43,10 @@ const sertifikat = [
     dari: "Sololearn CSS",
     image: "sololearnCss.jpg",
   },
+  {
+    dari: "PKL PT OLEAN",
+    image: "pkltkj.jpg",
+  },
 ];
 
 export default sertifikat;

@@ -52,6 +52,9 @@
   font-size: 1.2rem;
   text-align: left;
 }
+.table table .as {
+  font-weight: 500;
+}
 .table table .call-name {
   text-align: center;
   background-color: #cdf5f0;
@@ -67,6 +70,7 @@ td,
 tr {
   border: 1px solid black;
 }
+
 .btn-box {
   margin-top: 3rem;
   box-sizing: border-box;
@@ -124,5 +128,38 @@ tr {
   }
   100% {
     color: #00ffdd;
+  }
+}
+
+@media (max-width: 936px) {
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .cont-sect1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cont-sect1 .sect1-img {
+    width: 80%;
+  }
+  .cont-sect1 .table {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .cont-sect1 .table table td {
+    padding: 5px 5px 5px 10px;
+    font-size: 1.5rem;
+  }
+  .btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-box .butn-box {
+    left: 0;
+    font-size: 1.9rem;
   }
 }
