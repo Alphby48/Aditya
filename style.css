@@ -2,13 +2,6 @@
 /* @import "/styles/main.css"; */
 /* @import "/styles/nav.css"; */
 /* fonts */
-
-/*  */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Special+Elite&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Special+Elite&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap");
@@ -16,6 +9,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Special+Elite&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Sedgwick+Ave&family=Special+Elite&display=swap");
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* @font-face {
     font-family: "josefinsans";
     src: url(../asset/font/solway-regular-webfont.woff);
@@ -106,10 +106,10 @@ nav .logo::after {
 nav .logo h1 {
   font-family: "Permanent Marker", cursive;
   text-align: center;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
   /* text-transform: uppercase; */
-  color: #ff0000;
+  color: #00eeff;
   z-index: 1;
 }
 nav .navbar-nav {
@@ -300,14 +300,6 @@ nav .icon-bar .menu-toggle input:checked ~ span:nth-child(3) {
   }
 }
 
-@media (max-width: 936px) {
-  nav .navbar-nav {
-    width: 60%;
-  }
-  nav .navbar-nav li a {
-    font-size: 0.8rem;
-  }
-}
 /* nav end */
 
 /* main srart */
@@ -557,8 +549,15 @@ main .container .main-img .card .circle:nth-child(2) {
     transform: translateY(20px);
   }
 }
-
 @media (max-width: 936px) {
+  nav .navbar-nav {
+    width: 60%;
+  }
+  nav .navbar-nav li a {
+    font-size: 0.8rem;
+  }
+  /* nav end */
+  /* main start */
   main .container .main-box .btn-main {
     width: 70%;
   }
@@ -574,7 +573,7 @@ main .container .main-img .card .circle:nth-child(2) {
     /* background-size: cover; */
   }
   nav .logo h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   nav .logo::before {
     width: 10px;
@@ -662,9 +661,20 @@ main .container .main-img .card .circle:nth-child(2) {
     margin-top: 3rem;
     padding-top: 2rem;
   }
-
+  main .container .main-box h1 {
+    font-size: 2.5rem;
+  }
   main .container .main-box p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+  }
+  main .container .main-box .wrt-txt {
+    margin-bottom: 2rem;
+  }
+  main .container .main-box .wrt-txt h1 {
+    font-size: 2.5rem;
+  }
+  main .container .main-box .wrt-txt .type-text {
+    font-size: 2.5rem;
   }
   main .container .main-box .btn-main {
     width: 100%;
