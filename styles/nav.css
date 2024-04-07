@@ -3,8 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Special+Elite&display=swap");
 /* Font */
-@font-face {
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gamja+Flower&family=Inter:wght@100..900&family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Sedgwick+Ave&family=Special+Elite&display=swap");
+/* @font-face {
   font-family: "josefinsans";
   src: url(../asset/font/solway-regular-webfont.woff);
 }
@@ -27,7 +34,7 @@
 @font-face {
   font-family: "poppins-talic";
   src: url(../asset/font/poppins-italic-webfont.woff) format("woff");
-}
+} */
 :root {
   --bg-color: #cdd6ff;
 }
@@ -42,7 +49,7 @@ body {
   background-color: var(--bg-color);
   /* min-height: 6000px; */
   box-sizing: border-box;
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
 
   background-position: center;
 }
@@ -92,7 +99,11 @@ nav .logo::after {
   border-radius: 9px;
 }
 nav .logo h1 {
-  font-family: "josefinsans";
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
   color: #ff0000;
   z-index: 1;
 }
@@ -110,7 +121,8 @@ nav .navbar-nav * {
 
 nav .navbar-nav li a {
   text-decoration: none;
-  font-family: "poppins-medium";
+  font-family: "poppins";
+  font-weight: 500;
   text-transform: capitalize;
   color: #00ff00;
   position: relative;

@@ -31,7 +31,7 @@ main .container .main-box {
   width: auto;
 }
 main .container .main-box h1:nth-child(1) {
-  font-family: "poppins-extrabolditalic";
+  font-family: "poppins";
   text-shadow: 4px 4px 6px #aa3cf39d;
 }
 .wrt-txt {
@@ -40,13 +40,13 @@ main .container .main-box h1:nth-child(1) {
 main .container .main-box .wrt-txt h1 {
   color: #0c0c0c;
   font-size: 1.8rem;
-  font-family: "poppins-extrabolditalic";
+  font-family: "poppins";
 }
 main .container .main-box .wrt-txt .type-text {
   position: relative;
   font-size: 1.8rem;
   padding-left: 10px;
-  font-family: "poppins-medium";
+  font-family: "poppins";
   color: #f3277c;
   text-shadow: 3px 3px 5px #aa3cf39d;
 }
@@ -63,7 +63,7 @@ main .container .main-box .wrt-txt .type-text::after {
   animation: type 0.5s infinite;
 }
 main .container .main-box p {
-  font-family: "poppins-medium";
+  font-family: "poppins";
   width: 60%;
   line-height: 1.2;
   text-shadow: 3px 3px 5px #aa3cf39d;
