@@ -1,8 +1,10 @@
 import sertifikat from "../../database/data-prestasi.js";
 const listPrestasi = document.querySelector(".list-prestasi");
 
-const prestasi = sertifikat.map(
-  (s) => ` <div class="card">
+const prestasi = sertifikat
+  .map(
+    (s) => ` 
+  <div class="card">
           <div class="tools">
             <div class="circle">
               <span class="red box"></span>
@@ -28,11 +30,11 @@ const prestasi = sertifikat.map(
         </div>
     </div> 
 `
-);
+  )
+  .join("");
 listPrestasi.innerHTML = prestasi;
 popup();
 closeUp();
-//
 
 const btnReset = document.querySelector(".btn-reset");
 const inputSearch = document.querySelector(".input-search");

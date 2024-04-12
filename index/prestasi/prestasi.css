@@ -130,6 +130,8 @@ h1 {
 .txt-pres {
   font-family: Poppins;
   font-weight: 500;
+  max-width: 230px;
+  text-align: center;
 }
 .pop-sert {
   position: fixed;
